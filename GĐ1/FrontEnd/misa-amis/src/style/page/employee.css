@@ -1,0 +1,64 @@
+.m-content .m-content-title {
+  width: 100%;
+  background-color: #f4f5f8;
+  height: 24px;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
+
+.m-content-title .content-title-text {
+  font-family: MISA Font Bold;
+  font-size: 24px;
+}
+
+.m-content-grid {
+  background-color: #fff;
+  overflow: auto;
+  scrollbar-width: thin;
+  max-height: calc(100vh - 240px);
+}
+
+
+
+/* CONTENT-TOOLBAR */
+
+.m-content .m-content-toolbar {
+  width: calc(100% - 32px);
+  height: 36px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.m-content-toolbar .toolbar-search-box {
+  position: relative;
+  margin-right: 10px;
+}
+
+.toolbar-search-box .m-input {
+  padding-left: 10px;
+  padding-right: 36px;
+  width: 240px;
+}
+
+.toolbar-search-box .m-icon-search {
+  position: absolute;
+  top:0;
+  left: 100%;
+  transform: translate(-28px, 8px);
+  cursor: pointer;
+}
+
+.m-content-toolbar #btnRefresh {
+  padding: 0 6px;
+}
+
+#btnRefresh .m-icon-refresh {
+  cursor: pointer;
+}
+
+#cbxPaging .m-combobox-input {
+  cursor: pointer;
+}

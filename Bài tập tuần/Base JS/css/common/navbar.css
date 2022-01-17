@@ -1,0 +1,101 @@
+.m-navbar {
+    float: left;
+    width: 226px;
+    background-color: #ffffff;
+    height: 100vh;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.m-navbar .m-logo-site, .m-navbar .m-logo-box {
+    display: flex;
+    width: 100%;
+    height: 48px;
+}
+
+.m-navbar .m-logo-box{
+    height: 24px;
+    padding: 12px 0 0 16px;
+}
+
+.m-navbar .m-logo-box .m-toggle-icon {
+    width: 24px;
+    height: 24px;
+    padding-left: 10px;
+    background-image: url('../../content/img/toggle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-navbar .m-logo-box .m-cukcuk-logo {
+    width: 100%;
+    height: 24px;
+    background-image: url('../../content/cukcuk-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-navbar .m-navbar-content {
+    width: 100%;
+}
+
+.m-navbar .m-navbar-content .m-nav-item{
+    display: flex;
+    padding-left: 16px;
+    height: 44px;
+    line-height: 44px;
+    position: flex;
+}
+
+.m-navbar .m-navbar-content .m-nav-item:hover{
+    background-color: #e5e5e5;
+    color: #000000;
+    cursor: pointer;
+}
+
+.m-navbar .m-navbar-content .m-nav-item:active{
+    background-color: #019160;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.m-navbar-content .m-nav-item .m-nav-item-icon{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+
+
+.icon-dashboad{
+    background-image: url('../../content/icon/dashboard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-report{
+    background-image: url('../../content/icon/report.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-consume{
+    background-image: url('../../content/icon/dashboard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-dic-employee{
+    background-image: url('../../content/icon/dic-employee.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon-setting{
+    background-image: url('../../content/icon/setting.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,129 @@
+@import url('employee-form.css');
+
+
+.m-page-title .m-row{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.m-page-title .m-row .m-title-left{
+    font-size: 18px;   
+}
+
+
+
+.m-filter-bar .m-row{
+    height: 48px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.m-filter-list{
+    display: flex;
+}
+.m-row .m-filter-list .m-input-search{
+    width: 205px;
+    margin-right: 5px;
+}
+
+.m-row .m-filter-list .m-combobox{
+    margin-right: 13px;
+}
+
+.m-filter-bar .m-row .m-btn-refresh{
+    display: flex;
+    justify-content: end;
+    width: 48px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: url("../../../content/icon/refresh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.m-filter-bar .m-row .m-btn-refresh:hover{
+    cursor: pointer;
+    background-color: #bbbbbb49;
+}
+
+.m-filter-bar .m-row .m-action{
+    display: flex;
+}
+.m-filter-bar .m-row .m-btn-remove{
+    display: flex;
+    color: red;
+    justify-content: center;
+    width: 40px;
+    height: 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+
+.m-filter-bar .m-row .m-btn-remove:hover{
+    cursor: pointer;
+    background-color:#bbbbbb49;
+}
+
+
+.m-grid{
+    flex: 1;
+    margin-bottom: 56px;
+    overflow: auto;
+}
+
+.m-grid thead th { 
+    position: sticky;
+    top: 0; 
+    background-color: #ffffff;
+}
+
+.m-grid tbody th { 
+    position: sticky;
+     left: 0; 
+}
+
+.m-grid::-webkit-scrollbar {
+    width: 5px;
+    background-color: #bbbbbb;
+  }
+  
+  .m-grid::-webkit-scrollbar-thumb {
+    background: #454545;
+  }
+
+
+.m-navigation .m-paging-right .m-combobox{
+    border: none;
+}
+
+.m-grid .m-row .m-row-table{
+    flex: 1;
+    padding-bottom: 56px;
+  
+}
+
+/* pagination */
+.m-navigation{
+    width: unset;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    background-color: #ffffff;
+}
+
+/* overlay */
+.m-overlay{
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000006e;
+}

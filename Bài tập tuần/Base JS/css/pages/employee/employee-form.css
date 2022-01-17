@@ -1,0 +1,164 @@
+.m-employee-form {
+    background-color: #ffffff;
+    width: 800px;
+    height: 800px;
+    border-radius: 4px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: none;
+    z-index: 10;
+} 
+
+/* employee HEADER */
+
+.m-employee-form .m-employee-header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.m-employee-header .m-header-text {
+    flex: 2;
+    color: #000000;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    padding: 16px;
+    font-weight: bolder;
+}
+
+.m-employee-header .m-btn-esc button {
+    width: 24px;
+    border: none;
+    background-color: #ffffff;
+    opacity: .6;
+    margin: 12px;
+    font-size: 17px;
+}
+
+.m-employee-header .m-btn-esc button:hover{
+    background-color: #E9EBEE;
+    opacity: 1;
+}
+
+
+/* employee image */
+
+.m-employee-form .m-employee-image {
+    width: 220px;
+    height: 655px;
+    float: left;
+}
+
+.m-employee-image .m-avatar {
+    margin: 16px 32px;
+}
+
+.m-employee-image .m-avatar:hover {
+    opacity: 0.6;
+}
+
+.m-employee-image .m-text {
+    padding: 0px 36px;
+    text-align: center;
+}
+
+/* employee CONTENT */
+
+.m-content-row {
+    display: flex;
+}
+
+.m-employee-form .m-employee-content {
+    width: calc(100% - 220px);
+    /* height: 720px; */
+    float: right;
+}
+
+.m-content-row .m-combobox{
+    width: 140px;
+    margin: 2px 8px !important;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+
+.m-employee-content>* {
+    flex: 1;
+    margin-top: 8px;
+}
+
+.m-underline-text {
+    height: 4px;
+    width: 70px;
+    background-color: #019160;
+    margin: 8px;
+}
+
+.m-employee-text span {
+    color: red;
+}
+
+.m-employee-content .m-employee-text {
+    padding: 0px 8px;
+    color: #454545;
+    font-weight: bolder;
+}
+
+.m-employee-content input {
+    margin: 2px 8px;
+    width: 220px;
+}
+
+.m-employee-content .m-dropdown {
+    margin: 2px 8px;
+    width: 220px;
+}
+
+.m-employee-content .m-datetime-picker {
+    margin: 2px 8px;
+    width: 230px;
+}
+
+.m-content-info, .m-content-job {
+    width: 200px;
+    height: 20px;
+    font-size: 14px;
+    padding: 0px 8px;
+    font-weight: bold;
+}
+
+.m-employee-salary #txtSalary{
+    text-align: right;
+}
+
+/* EMPL0YEE FOOTER */
+
+.m-employee-form .m-employee-footer {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 60px;
+    background-color: #E9EBEE;
+    justify-content: right;
+    align-items: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.m-employee-footer button {
+    margin-right: 16px;
+}
+
+.m-employee-footer #btnSave:focus {
+    background-color: #2FbE8E;
+    outline: unset;
+}
+
+.m-employee-footer #btnCancel:focus {
+    background-color: #BBBBBB !important;
+    outline: unset;
+}

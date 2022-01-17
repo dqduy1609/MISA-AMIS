@@ -1,0 +1,21 @@
+
+.m-toast {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    min-width: 200px;
+    max-width: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: all linear 0.3s;
+    padding: 16px;
+}
+
+.m-toast-text {
+    flex: 1;
+    padding-left: 8px;
+}
+
+.m-toast > span:hover {
+    opacity: 0.6;
+}

@@ -1,0 +1,53 @@
+.m-table-paging {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 24px;
+    height: 56px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.m-table-paging .record-per-page {
+    margin: 0 16px;
+    width: 200px;
+    min-width: 200px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.m-table-paging .page-navigator {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigator #previousPage {
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.page-navigator #nextPage {
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.page-navigator .page-number-list {
+    display: flex;
+    align-items: center;
+}
+
+.page-number-list .page-number {
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.page-navigator .page-number.active {
+    border: 1px solid #e0e0e0;
+    font-weight: 700;
+}

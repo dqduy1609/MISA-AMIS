@@ -1,0 +1,36 @@
+@import url('./component/button.css');
+@import url('./component/input.css');
+@import url('./component/toast.css');
+@import url('./component/chip-status.css');
+@import url('./component/icon.css');
+@import url('./component/dialog.css');
+@import url('./component/datetime-picker.css');
+@import url('./component/dropdown.css');
+@import url('./component/radio.css');
+@import url('./component/checkbox.css');
+@import url('./page/customer-detail.css');
+body {
+    margin: 0;
+    font-family: 'GoogleSans-Regular';
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Black';
+    src: url('../content/font/GoogleSans-Black.otf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Light.otf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Thin.otf');
+}

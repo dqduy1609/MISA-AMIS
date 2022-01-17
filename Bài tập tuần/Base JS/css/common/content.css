@@ -1,0 +1,12 @@
+.m-content {
+    width: calc(100% - 226px);
+    height: calc(100vh - 48px);
+    float: left;
+    padding: 16px 16px 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+

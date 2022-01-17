@@ -1,0 +1,58 @@
+
+.m-navbar{
+  width: 170px;
+  height: auto;
+  float: left;
+  background-color: rgb(57, 58, 62);
+}
+
+.m-navbar .m-logo-site{
+  margin-left: 20px;
+}
+.m-navbar .m-logo-box{
+  display: flex;
+  align-items: center;
+}
+.m-logo-box .m-toggle-icon i{
+  color: white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.m-logo-box .m-amis-logo{
+  width: 80px;
+  height: 40px;
+  background-image: url('../../assets/img/Logo_Module_TiengViet_White.66947422.svg');
+  background-repeat: no-repeat;
+  background-size: 80px 40px;
+
+}
+
+.m-navbar-content{
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+.m-navbar-content::-webkit-scrollbar-thumb {
+  background: #b8bcc3;
+}
+.m-navbar-content::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f1f1f1;
+}
+.m-navbar-content .m-nav-item{
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.m-nav-item .m-nav-item-icon{
+  margin-right: 10px;
+  color: rgb(170, 167, 167);
+}
+.m-nav-item .m-nav-item-text a{
+  text-decoration: none;
+  color: white;
+}
+.m-nav-item:hover{
+  background-color: rgb(53, 53, 53);
+}

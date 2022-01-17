@@ -1,0 +1,52 @@
+.m-flex-space {
+  flex-grow: 1 !important;
+  padding: 0;
+  margin: 0;
+  background: 0 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.m-row {
+  margin-top: 8px;
+  width: 100%;
+  position: relative;
+}
+
+.m-row.m-row-flex {
+  display: flex;
+}
+
+.m-col+.m-col{
+  margin-left: 6px;
+}

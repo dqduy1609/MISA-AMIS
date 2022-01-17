@@ -1,0 +1,58 @@
+.m-header {
+    float: left;
+    width: calc(100% - 226px);
+    height: 48px;
+    border-bottom: 1px solid #e5e5e5;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.m-header .m-row{
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.m-header .m-store-location{
+    padding-left: 16px;
+}
+
+.m-header .m-store-location .m-combobox{
+    display: flex;
+    border: none;
+    font-weight: bold;
+}
+
+.m-header .m-admin{
+    display: flex;
+    height: 48px;
+    justify-content: end;
+    align-items: center;
+}
+
+.m-header .m-admin .m-admin-img{
+    width: 30px;
+    height: 30px;
+    padding-right: 16px;
+    background-image: url('../../content/icon/avatar-default.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-header .m-admin .m-admin-name{
+  padding-right: 16px;  
+}
+
+.m-header .m-admin .m-admin-extend{
+    width: 20px;
+    height: 20px;
+    padding-right: 16px;
+    background-image: url('../../content/icon/option.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

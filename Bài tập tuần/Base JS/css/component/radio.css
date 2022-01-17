@@ -1,0 +1,28 @@
+/* radio input */
+.m-radio-input{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #019160;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+}
+
+.m-radio-input .m-radio-checked{
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    border-radius: 50%;
+    background-color: #019160;
+    display: none;
+}
+
+.m-radio-input input{
+    display: none;
+}
+
+.m-radio-input input:checked + .m-radio-checked{
+    display: inline-block;
+}

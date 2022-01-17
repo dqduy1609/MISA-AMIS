@@ -1,0 +1,19 @@
+input.m-checkbox{
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #afafaf;
+  border-radius: 2px;
+  transform: rotate(-90deg);
+}
+
+input.m-checkbox:checked,
+input.m-checkbox:active,
+input.m-checkbox:checked:active{
+  transition: transform .15s linear;
+  cursor: pointer;
+  background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+  background-position: -1224px -361px;
+  border: 1px solid #2CA01C;
+  transform: rotate(0deg);
+}

@@ -1,0 +1,42 @@
+.m-datetime-picker {
+    display: flex;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    padding-left: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.m-datetime-picker:hover {
+    border-color: #019160 ;
+}
+
+.m-datetime-picker .m-datetime-text {
+    border: none;
+    color: #bbbbbb;
+    width: 200px;
+    font-size: 11px;
+    outline: none;
+}
+
+.m-datetime-picker .m-datetimePicker {
+    width: 50%;   
+}
+
+.m-datetime-picker .m-datetimePicker .m-btn-picker {
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+.m-datetime-picker .m-btn-picker:hover {
+    background-color: #e9ebee;
+}
+
+.m-datetime-picker:focus {
+    outline: none;
+    border-color: #019160;
+}

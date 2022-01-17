@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./content/font/fontawesome-5.15.4/css/all.min.css" />
+    <title>Style GuideLines</title>
+</head>
+<body>
+    
+    <div class="toast" style="margin: 20px;">
+        <label class="m-label">1. Toast Messenger</label>
+        <div class="m-toast .m-toast-success">
+            <i class="fas fa-check-circle" style="color: #01B075;"></i>
+            <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+            <span class="fas fa-times" style="color: #01B075; cursor: pointer;"></span>
+        </div>
+        <br>
+        <div class="m-toast m-toast-warning">
+            <i class="fas fa-exclamation-triangle" style="color: #FF6900;"></i>
+            <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+            <span class="fas fa-times" style="color: #FF6900; cursor: pointer;"></span>
+        </div>
+        <br>
+        <div class="m-toast m-toast-error">
+            <i class="fas fa-exclamation-circle" style="color: #F65454;"></i>
+            <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+            <span class="fas fa-times" style="color: #F65454; cursor: pointer;"></span>
+        </div>
+        <br>
+        <div class="m-toast m-toast-info">
+            <i class="fas fa-info-circle" style="color: #0075FF;"></i>
+            <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+            <span class="fas fa-times" style="color: #0075FF; cursor: pointer;"></span>
+        </div>
+    </div>
+    
+
+    <div class="chip-status" style="margin: 20px;">
+        <label class="m-label">2. Chip status</label>
+        <div class="m-chip-status">
+            <div class="m-chip m-chip-secondary">Chưa gửi</div>
+            <div class="m-chip m-chip-danger">Bị từ chối</div>
+            <div class="m-chip m-chip-success">Đã duyệt</div>
+            <div class="m-chip m-chip-warning">Thiếu thông tin</div>
+            <div class="m-chip m-chip-primary">Đã gửi</div>
+        </div>
+    </div>
+
+    <div class="button-icon-down" style="margin: 20px;">
+        <label for="m-label">3. Button icon down</label>
+        <div class="m-btnDown" style="display: flex;">
+            <button class=" m-btn-iconDown">
+                <div class="m-icon-add"></div> Thêm nhân viên
+            </button>
+            <span style="border: 1px solid #2fbe8e; height: 38px;"></span>
+            <button class="m-btn-down">
+                <i class="fas fa-chevron-down" style="color: white;"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="input-error" style="margin-top: 60px; margin-left: 20px;">
+        <label class="m-label">4. Input error</label>
+        <div class="m-input-error" style="width:300px">
+            <input type="text" class="m-error-notify" placeholder="Mật khẩu">
+            <div class="m-error-info">Mật khẩu không đúng định dạng
+                <div class="m-arrow-bottom"></div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 20px;">
+        <label class="m-label">5. Radio</label>
+        <div class="m-radio"></div>
+        <br>
+        <div class="m-radio-selected">
+            <div class="m-icon-radio"></div>
+        </div>
+    </div>
+
+    <div style="margin:20px;">
+        <label class="m-label">6. Checkbox</label>
+        Default<div class="m-checkbox"></div>
+        <br>
+        Selected<div class="m-checkbox-selected">
+            <i class="fas fa-check"
+                style="font-size: 8px; padding-left: 6px; color: white; background-color:#019160 ;"></i>
+        </div>
+    </div>
+
+    <div class="customer-detail">
+        <label class="m-label">Customer Detail</label>
+        <div class="m-employee-form">
+            <div class="m-employee-header">
+                <div class="m-header-text">THÔNG TIN NHÂN VIÊN</div>
+                <div class="m-btn-esc">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="m-employee-navbar">
+                <div class="m-navbar-avatar">
+                    <div class="m-default-avatar"></div>
+                </div>
+                <div class="m-navbar-text">(Vui lòng chọn ảnh có định dạng .jpg. .jpeg. .png .gif.)</div>
+            </div>
+            <div class="m-employee-content">
+                <div class="m-content-info">A. THÔNG TIN CHUNG:</div>
+                <div class="m-underline-text"></div>
+                <div class="m-content-row">
+                    <div class="m-employee-id">
+                        <div class="m-employee-text">Mã nhân viên (<span>*</span>)</div>
+                        <input type="text" class="m-input" placeholder="Nhập mã nhân viên">
+                    </div>
+                    <div class="m-employee-name">
+                        <div class="m-employee-text">Họ và tên (<span>*</span>)</div>
+                        <input type="text" class="m-input" placeholder="Nhập họ và tên nhân viên">
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-birthday">
+                        <div class="m-employee-text">Ngày sinh</div>
+                        <div class="m-datetime-picker">
+                            <input class="m-datetime-text" placeholder="__/____/____" type="date">
+                        </div>
+                    </div>
+                    <div class="m-employee-gender">
+                        <div class="m-employee-text">Giới tính</div>
+                        <div class="m-dropdown">
+                            <div class="m-dropdown-text">Nam</div>
+                            <div class="m-dropdown-down">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-citizenId">
+                        <div class="m-employee-text">Số CMTND/Căn cước (<span>*</span>)</div>
+                        <input type="text" class="m-input" placeholder="Nhập CMTND/Căn cước">
+                    </div>
+                    <div class="m-employee-citizenDate">
+                        <div class="m-employee-text">Ngày cấp</div>
+                        <div class="m-datetime-picker">
+                            <input class="m-datetime-text" type="text" placeholder="__/____/____">
+                            <div class="m-datetimePicker">
+                                <button class="m-btn-picker">
+                                    <i class="far fa-calendar-alt" style="font-size: 16px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-citizenPlace">
+                        <div class="m-employee-text">Nơi cấp</div>
+                        <input type="text" class="m-input" placeholder="Nhập nơi cấp CMTND/Căn cước">
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-email">
+                        <div class="m-employee-text">Email (<span>*</span>)</div>
+                        <input type="text" class="m-input" placeholder="Nhập Email">
+                    </div>
+                    <div class="m-employee-phoneNumber">
+                        <div class="m-employee-text">Số điện thoại (<span>*</span>)</div>
+                        <input type="text" class="m-input" placeholder="Nhập số điện thoại">
+                    </div>
+                </div>
+                <div class="m-content-job">B. THÔNG TIN CÔNG VIỆC:
+                </div>
+                <div class="m-underline-text"></div>
+                <div class="m-content-row">
+                    <div class="m-employee-position">
+                        <div class="m-employee-text">Ví trí</div>
+                        <div class="m-dropdown">
+                            <div class="m-dropdown-text">Giám đốc</div>
+                            <div class="m-dropdown-down">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-employee-department">
+                        <div class="m-employee-text">Phòng ban</div>
+                        <div class="m-dropdown">
+                            <div class="m-dropdown-text">Phòng nhân sự</div>
+                            <div class="m-dropdown-down">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-taxId">
+                        <div class="m-employee-text">Mã số thuế cá nhân</div>
+                        <input type="text" class="m-input" placeholder="Nhập mã số thuế cá nhân">
+                    </div>
+                    <div class="m-employee-salary">
+                        <div class="m-employee-text">Mức lương cơ bản</div>
+                        <input type="text" class="m-input" placeholder="Nhập số tiền">
+                    </div>
+                </div>
+                <div class="m-content-row">
+                    <div class="m-employee-dateJoin">
+                        <div class="m-employee-text">Ngày gia nhập công ty</div>
+                        <div class="m-datetime-picker">
+                            <input class="m-datetime-text" type="text" placeholder="__/____/____">
+                            <div class="m-datetimePicker">
+                                <button class="m-btn-picker">
+                                    <i class="far fa-calendar-alt" style="font-size: 16px;"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-employee-jobStatus">
+                        <div class="m-employee-text">Tình trạng công việc</div>
+                        <div class="m-dropdown">
+                            <div class="m-dropdown-text">Đang làm việc</div>
+                            <div class="m-dropdown-down">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-employee-footer">
+                <button class="m-btn-cancel">Hủy</button>
+                <button class="m-btn-icon">
+                    <i class="far fa-save" style="padding-right: 8px;"></i>Lưu</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/common/common.js"></script>
+</body>
+</html>

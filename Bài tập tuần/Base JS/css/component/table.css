@@ -1,0 +1,54 @@
+.grid {
+    overflow-y: scroll;
+
+  }
+  
+  .grid::-webkit-scrollbar {
+    width: 5px;
+    background-color: #bbbbbb;
+  }
+  
+  .grid::-webkit-scrollbar-thumb {
+    background: #454545;
+  }
+  
+table {
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+    width: 100%;
+}
+    table th{
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+    }
+    table tr {
+        height: 48px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    table td, th {
+        padding: 0 8px;
+        border: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    table thead tr{
+        text-align: left;
+    }
+    
+    table tbody tr:hover {
+        background-color: #ebf9f4;
+    }
+    
+    tr:nth-child(even){
+        background-color: #f4f4f4;
+    }
+  
+.text-align-right {
+    text-align: right;
+} 
+.m-row-selected{
+    background-color: #2FBE8E !important;
+}

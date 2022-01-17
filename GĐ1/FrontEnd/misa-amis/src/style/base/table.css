@@ -1,0 +1,132 @@
+table.m-table {
+  width: 100%;
+  border-spacing: unset;
+  color: #111;
+  border: unset;
+}
+.m-content-grid::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #bbbbbb;
+}
+
+.m-content-grid::-webkit-scrollbar-thumb {
+  background: #454545;
+}
+
+table.m-table tr th,
+table.m-table tr td {
+  padding: 0 10px;
+}
+
+table.m-table tr input[type="checkbox"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+
+table.m-table tr th:last-child,
+table.m-table tr td:last-child {
+  border-left: 1px solid #c7c7c7;
+  border-right: none;
+  box-sizing: border-box;
+}
+
+/* TABLE-HEAD */
+
+table.m-table thead tr {
+  height: 34px;
+  min-height: 34px;
+}
+
+table.m-table thead tr th {
+  position: sticky;
+  top: 0;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #eceef1 !important;
+  border-bottom: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  z-index: 1;
+}
+
+table.m-table thead th:first-child,
+table.m-table thead th:last-child {
+  z-index: 2;
+}
+
+/* TABLE-BODY */
+
+table.m-table tbody tr {
+  height: 44px;
+  min-height: 44px;
+}
+
+table.m-table tbody tr td {
+  border-bottom: 1px solid #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+}
+
+table.m-table tbody tr:hover {
+  background-color: #f3f8f8 !important;
+}
+
+/* Position sticky */
+
+table.m-table tr td:first-child,
+table.m-table tr th:first-child {
+  position: sticky;
+  background-color: #fff;
+  left: 0;
+}
+
+table.m-table tr td:last-child,
+table.m-table tr th:last-child {
+  position: sticky;
+  background-color: #fff;
+  right: 0;
+  box-sizing: border-box;
+}
+
+table.m-table tbody tr:hover td:last-child,
+table.m-table tbody tr:hover td:first-child {
+  background-color: #f3f8f8 !important;
+}
+
+table.m-table th:nth-child(11),
+table.m-table td:nth-child(11) {
+  border-right: unset;
+}
+
+/* DROPDOWN-BTN */
+table.m-table .m-utility-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-utility-dropdown .dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  width: 26px;
+  cursor: pointer;
+  border: unset;
+  background-color: unset;
+}
+
+.m-utility-dropdown .dropdown-btn:focus {
+  outline: 1px solid #0075c0;
+}
+
+.m-utility-dropdown .m-dropdown-text {
+  padding: 6px 0 6px 16px !important;
+  color: #0075c0;
+  font-weight: 600;
+  cursor: pointer;
+}

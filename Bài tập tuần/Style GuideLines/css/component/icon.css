@@ -1,0 +1,78 @@
+.m-icon-search {
+    background: url('../../content/icon/search.png');
+    background-repeat: no-repeat;
+    background-position: 16px center;
+}
+
+.m-icon-table {
+    padding-left: 8px;
+}
+
+.m-icon-default {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    background: url('../../content/icon/avatar-default.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.m-icon-bell {
+    width: 30px;
+    cursor: pointer;
+}
+
+.m-icon-option {
+    width: 16px;
+    height: 16px;
+    background: url('../../content/icon/option.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 8px 8px;
+    cursor: pointer;
+}
+
+.m-icon-add {
+    background: url('../../content/icon/add.png');
+    width: 16px;
+    height: 16px;
+    padding-left: 8px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+ .m-icon-down {
+    background: url('../../content/icon/btn-down.svg');
+    width: 8px;
+    height: 8px;
+    margin: 8px 8px;
+    background-repeat: no-repeat;
+}
+
+.m-icon-radio {
+    background: url('../../content/icon/radio.svg');
+    width: 20px;
+    height: 20px;
+    margin: auto 0;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.m-icon-x {
+    background: url('../../content/icon/x.svg');
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.m-default-avatar {
+    background: url('../../content/img/default-avatar.jpg') ;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    background-size: 100%;
+    background-position: center;
+}
+

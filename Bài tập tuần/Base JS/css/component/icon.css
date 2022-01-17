@@ -1,0 +1,19 @@
+.m-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m-icon-add-emplyee{
+    background-image: url('../../content/icon/add.png');
+}
+
+.m-default-avatar {
+    background: url(../../content/img/default-avatar.jpg) ;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    background-size: 100%;
+    background-position: center;
+}

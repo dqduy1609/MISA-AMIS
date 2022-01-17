@@ -1,0 +1,40 @@
+
+/* BUTTON CHÍNH */
+.m-btn {
+  height: 34px;
+  padding: 6px 16px;
+  background-color: #2ca01c;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  outline: none
+}
+
+.m-btn:hover {
+  background-color: #35bf22;
+}
+
+.m-btn:active {
+  background-color: #248b15;
+}
+
+/* BUTTON PHỤ */
+.m-second-btn {
+  height: 34px;
+  padding: 6px 16px;
+  border: 1px solid #8d9096;
+  background-color: transparent;
+
+  color: #111;
+  cursor: pointer;
+  outline: none;
+}
+
+.m-second-btn:hover {
+  background-color: #d2d3d6;
+}
+
+.m-second-btn:active {
+  background-color: #bbbcbc;
+}
