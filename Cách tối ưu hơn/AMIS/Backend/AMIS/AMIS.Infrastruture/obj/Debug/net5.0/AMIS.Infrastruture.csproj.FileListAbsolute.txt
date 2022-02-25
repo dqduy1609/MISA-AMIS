@@ -1,0 +1,15 @@
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\AMIS.Infrastruture.deps.json
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\AMIS.Infrastruture.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\ref\AMIS.Infrastruture.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\AMIS.Infrastruture.pdb
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\AMIS.Core.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\bin\Debug\net5.0\AMIS.Core.pdb
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.csproj.AssemblyReference.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.AssemblyInfoInputs.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.AssemblyInfo.cs
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.csproj.CoreCompileInputs.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.csproj.CopyComplete
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\ref\AMIS.Infrastruture.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Infrastruture\obj\Debug\net5.0\AMIS.Infrastruture.pdb

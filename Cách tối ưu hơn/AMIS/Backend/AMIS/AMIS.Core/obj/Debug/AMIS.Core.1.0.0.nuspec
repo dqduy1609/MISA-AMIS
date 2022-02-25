@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AMIS.Core</id>
+    <version>1.0.0</version>
+    <authors>AMIS.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\bin\Debug\net5.0\AMIS.Core.dll" target="lib\net5.0\AMIS.Core.dll" />
+  </files>
+</package>

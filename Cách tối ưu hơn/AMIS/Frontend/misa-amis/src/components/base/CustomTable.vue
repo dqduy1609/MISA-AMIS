@@ -1,0 +1,180 @@
+<template>
+  <div class="m-table">
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 40px"><Checkbox /></th>
+          <th
+            v-for="(field, index) in fields"
+            :key="index"
+            :style="field.type === 'date' ? 'text-align:center' : ''"
+          >
+            {{ field.text }}
+          </th>
+          <th style="text-align: center">Chức năng</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          v-for="(employee, index) in data"
+          :key="index"
+          @dblclick="handleEditButtonClick(employee.employeeId)"
+        >
+          <td style="width: 40px"><Checkbox /></td>
+          <td
+            v-for="(field, index) in fields"
+            :key="index"
+            :style="field.type === 'date' ? 'text-align:center' : ''"
+          >
+            <p v-if="field.type === 'date'">
+              {{ employee[field.name] | DateFilter }}
+            </p>
+            <p v-else-if="field.type === 'gender'">
+              {{ employee[field.name] | GenderFilter }}
+            </p>
+            <p v-else>{{ employee[field.name] }}</p>
+          </td>
+          <td>
+            <div class="flex-center">
+              <span
+                @click="handleEditButtonClick(employee.employeeId)"
+                class="m-btn-edit"
+                >Sửa</span
+              >
+              <DropdownOption @delete="handleDeleteButtonClick(employee)" />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+import Checkbox from "./Checkbox.vue";
+import Resource from "../../Resource";
+import DropdownOption from "../../components/base/DropdownOption.vue";
+export default {
+  components: {
+    Checkbox,
+    DropdownOption,
+  },
+  props: {
+    fields: Array,
+    data: Array,
+  },
+  methods: {
+    /**
+     *
+     */
+    handleEditButtonClick(id) {
+      this.$emit("handleEditButtonClick", id);
+    },
+    /**
+     * Hàm hứng EmployeeId tạo sự kiện deleteEmployee
+     */
+    handleDeleteButtonClick(employee) {
+      this.$emit("handleDeleteButtonClick", employee);
+    },
+  },
+  filters: {
+    // Filter Gender
+    GenderFilter(gender) {
+      let result = "";
+      switch (gender) {
+        case "0":
+          result = Resource["VN"].Gender.Male;
+          break;
+        case "1":
+          result = Resource["VN"].Gender.Female;
+          break;
+        case "2":
+          result = Resource["VN"].Gender.Other;
+          break;
+      }
+      return result;
+    },
+    // Filter ngày tháng
+    DateFilter(d) {
+      var dateString = "";
+      if (d == null || d == undefined) {
+        dateString = "";
+      } else {
+        let DateOfBirth = new Date(d);
+        let date =
+          DateOfBirth.getDate() < 10
+            ? `0${DateOfBirth.getDate()}`
+            : DateOfBirth.getDate();
+        let mont =
+          DateOfBirth.getMonth() + 1 < 10
+            ? `0${DateOfBirth.getMonth() + 1}`
+            : DateOfBirth.getMonth() + 1;
+        let year = DateOfBirth.getFullYear();
+        dateString = `${date}/${mont}/${year}`;
+        dateString = dateString != "NaN/NaN/NaN" ? dateString : "";
+      }
+      return dateString;
+    },
+  },
+};
+</script>
+
+<style scope>
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-btn-edit {
+  font-weight: 600;
+  font-size: 13px;
+  color: #0075c0;
+  cursor: pointer;
+  padding-left: 16px;
+}
+.m-table {
+  padding-left: 20px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.m-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.m-table table thead {
+  font-size: 12px;
+  color: #111;
+  text-transform: uppercase;
+  background-color: #eceef1;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.m-table table tr {
+  border-bottom: 1px solid #c7c7c7;
+}
+.m-table table tbody tr:hover {
+  background-color: rgba(0, 120, 100, 0.05);
+  cursor: pointer;
+}
+.m-table table tr th + th {
+  border-left: 1px solid #c7c7c7;
+}
+.m-table table tr td + td {
+  border-left: 1px solid #c7c7c7;
+}
+.m-table table thead tr th {
+  height: 34px;
+  padding: 0 10px;
+  text-align: start;
+}
+.m-table table tr td {
+  padding: 0 10px;
+  height: 44px;
+}
+.m-table tbody {
+  color: #111;
+}
+</style>

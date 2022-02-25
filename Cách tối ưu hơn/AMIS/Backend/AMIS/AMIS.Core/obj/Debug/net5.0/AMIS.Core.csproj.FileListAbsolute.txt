@@ -1,0 +1,14 @@
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\bin\Debug\net5.0\AMIS.Core.deps.json
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\bin\Debug\net5.0\AMIS.Core.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\bin\Debug\net5.0\ref\AMIS.Core.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\bin\Debug\net5.0\AMIS.Core.pdb
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.AssemblyInfoInputs.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.AssemblyInfo.cs
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.csproj.CoreCompileInputs.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\ref\AMIS.Core.dll
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.pdb
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.csproj.AssemblyReference.cache
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.Resource.resources
+D:\Misa\Fresher\Git\MS.WEB2021_09\978-dhtoan\AMIS\Backend\AMIS\AMIS.Core\obj\Debug\net5.0\AMIS.Core.csproj.GenerateResource.cache
