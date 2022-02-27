@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f1d68914-ec42-44e5-b0ab-8fd4ec1372e8": {
+      "ProjectGuid": "f1d68914-ec42-44e5-b0ab-8fd4ec1372e8",
+      "DisplayName": "MISA.AMIS.API",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
