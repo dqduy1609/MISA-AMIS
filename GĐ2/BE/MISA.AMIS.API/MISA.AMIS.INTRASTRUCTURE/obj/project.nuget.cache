@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bBBiUCdsnjq77DnoijZEwCAJNSDv4mFTv4SorXY/+Luq0Yp+N1UNX1EC5wj8F2lzAAm8ZUhqfKZgDOvWJ4nDgA==",
+  "dgSpecHash": "9NZMJ6sEaJCy2lSnLPlji9AMYNxvyNIiFs3Uqfph5HgiTayRj4Vk9p99c6VrG3DFqVvyZDAOG2+QdNyS91A6JA==",
   "success": true,
-  "projectFilePath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
+  "projectFilePath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

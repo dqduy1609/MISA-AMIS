@@ -33,7 +33,7 @@ namespace MISA.AMIS.CORE.Interfaces.Repository
         /// </summary>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public int DeleteCaPayment(Guid entityId);
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace MISA.AMIS.CORE.Interfaces.Repository
         /// </summary>
         /// <param name="listId">Danh sách id của tài sản</param>
         /// <returns>Trả về số bản ghi ảnh hưởng khi xóa</returns>     
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         int DeleteMultipleCaPaymentRecords(string listId);
 
         /// <summary>

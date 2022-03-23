@@ -249,7 +249,7 @@ import TextField from "../components/base/TextField.vue";
 import RadioGroup from "../components/base/RadioGroup.vue";
 import Combobox from "../components/base/ComboboxCustom.vue";
 import MessageBox from "../components/base/MessageBox.vue";
-import Toast from "../components/base/Toast.js";
+import Toast from "../js/Toast.js";
 import ComboboxPanigaion from "../components/base/ComboboxPanigation.vue";
 import PageNumberPanigation from "../components/base/PageNumberPanigation.vue";
 
@@ -352,7 +352,7 @@ export default {
   methods: {
     /**
      * Hàm xử lý cất và thêm
-     * Author: DHToan(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     async handleBtnSaveAndAdd() {
       try {
@@ -372,7 +372,7 @@ export default {
     },
     /**
      * Sự kiện khi thay đổi RecordNumber
-     * Author: DHTOAN(19/11/2021)
+     * Author: DQDUY(19/11/2021)
      */
     changeRecordNumber(pageRecord) {
       this.RecordNumber = pageRecord;
@@ -380,7 +380,7 @@ export default {
     },
     /**
      * Xử lý khi nhấn chọn trang
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     handleSelectPanigation(page) {
       this.Loading = true;
@@ -396,7 +396,7 @@ export default {
     },
     /**
      * Hàm xử lý sự kiện Refresh
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     async handleBtnRefresh() {
       await this.loadData();
@@ -407,7 +407,7 @@ export default {
     },
     /**
      * Xử lý sự kiện khi ấn nút sửa
-     * Author: DHTOAN (20/11/2021)
+     * Author: DQDUY (20/11/2021)
      */
     updateEmployee(id) {
       console.log("Edit: ", id);
@@ -436,7 +436,7 @@ export default {
     },
     /*
      * Hàm xử lý khi ấn nút xóa 1 dòng
-     * Author: DHTOAN (20/11/2021)
+     * Author: DQDUY (20/11/2021)
      */
     handleTableDelete(employee) {
       this.EmployeeIdDelete = employee.employeeId;
@@ -449,7 +449,7 @@ export default {
     },
     /**
      * Hàm xử lý sự kiện khi ấn xác nhận MessageBox
-     * Author: DHTOAN(19/11/2021)
+     * Author: DQDUY(19/11/2021)
      */
     async handleConfirmMessage() {
       try {
@@ -470,7 +470,7 @@ export default {
     },
     /**
      * Hàm Load dữ liệu từ API
-     * Author: DHTOAN (2021/11/18)
+     * Author: DQDUY (2021/11/18)
      */
     async loadData() {
       this.Loading = true;
@@ -500,7 +500,7 @@ export default {
     },
     /**
      * Hàm xử lý sự kiện nhấn nút thêm nhân viên mới
-     * Author: DHTOAN (2021/11/18)
+     * Author: DQDUY (2021/11/18)
      */
     handleBtnAdd() {
       // Hiển thị Form nhập liệu
@@ -531,7 +531,7 @@ export default {
     },
     /**
      * Hàm check điều kiện và hiển thị Input báo đỏ
-     * Author: DHTOAN
+     * Author: DQDUY
      */
     checkInput(nameRef, value) {
       let valid = false;
@@ -544,7 +544,7 @@ export default {
     },
     /**
      * Hàm Focus
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     doFocus() {
       let ListFocus = ["EmployeeCode", "FullName", "DepartmentId"];
@@ -557,7 +557,7 @@ export default {
     },
     /**
      * Check Date
-     * Author: DHToan(2021/11/22)
+     * Author: DQDUY(2021/11/22)
      */
     errorDate(date) {
       if (date == null) return false;
@@ -576,7 +576,7 @@ export default {
     },
     /**
      * Check Email
-     * Author: DHTOAN(2021/11/22)
+     * Author: DQDUY(2021/11/22)
      */
     errorEmail(email) {
       console.log(email);
@@ -588,7 +588,7 @@ export default {
     },
     /**
      * Hàm check validate
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     checkValidate() {
       // Viền đỏ Input nếu không nhập và Focus
@@ -644,7 +644,7 @@ export default {
     },
     /**
      * Hàm gọi Api thêm mới
-     * Author: DHTOAN(19/11/2021)
+     * Author: DQDUY(19/11/2021)
      */
     async callApiCreate(employee) {
       try {
@@ -659,7 +659,7 @@ export default {
     },
     /**
      * Hàm gọi Api update
-     * Author: DHTOAN(19/11/2021)
+     * Author: DQDUY(19/11/2021)
      */
     async callApiUpdate(id, employee) {
       try {
@@ -674,7 +674,7 @@ export default {
     },
     /**
      * Hàm gọi Api xóa nhân viên
-     * Author: DHTOAN(19/11/2021)
+     * Author: DQDUY(19/11/2021)
      */
     async callApiDelete(id) {
       try {
@@ -685,7 +685,7 @@ export default {
     },
     /**
      * Hàm thêm Employee
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     async handleBtnSave() {
       // Validate dữ liệu:
@@ -762,7 +762,7 @@ export default {
     },
     /**
      * Hàm chuyển dữ liệu ngày tháng về dạng YYY-MMM-DDD
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     // Convert Date:
     convertDate(dateString) {
@@ -783,7 +783,7 @@ export default {
   watch: {
     /**
      * Hàm xử lý tìm kiếm
-     * Author: DHTOAN(22/11/2021)
+     * Author: DQDUY(22/11/2021)
      */
     SearchText: function (value) {
       if (value != "") {

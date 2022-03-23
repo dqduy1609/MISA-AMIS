@@ -151,11 +151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
+      "projectUniqueName": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
       "projectName": "MISA.AMIS.CORE",
-      "projectPath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
+      "projectPath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\obj\\",
+      "outputPath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

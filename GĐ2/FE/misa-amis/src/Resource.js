@@ -37,7 +37,7 @@ const Resource = {
             Other: "Other"
         }
     },
-    AMIS_SERVICE_URL: "http://localhost:55858/api/v1",
+    AMIS_SERVICE_URL: "http://localhost:51831/api/v1",
     FormMode: {
         Add: 0,
         Edit: 1

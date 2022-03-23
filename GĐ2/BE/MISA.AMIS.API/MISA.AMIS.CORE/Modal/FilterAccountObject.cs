@@ -19,17 +19,17 @@ namespace MISA.AMIS.CORE.Modal
         /// <summary>
         /// Thành phố
         /// </summary>
-        /// CreatedBy: NmQuang(14/1/2022)
+        /// CreatedBy: DQDUY(1/3/2022)
         public string m_ProvinceOrCity { get; set; }
         /// <summary>
         /// Quận huyện
         /// </summary>
-        /// CreatedBy: NmQuang(14/1/2022)
+        /// CreatedBy: DQDUY(1/3/2022)
         public string m_District { get; set; }
         /// <summary>
         /// Phường xã
         /// </summary>
-        /// CreatedBy: NmQuang(14/1/2022)
+        /// CreatedBy: DQDUY(1/3/2022)
         public string m_WardOrCommune { get; set; }
 
     }

@@ -1,7 +1,9 @@
 import Home from '../views/Home.vue'
 import Employee from '../views/Employee.vue'
 import VueRouter from 'vue-router';
-
+import CashPage from '../views/CashPage.vue'
+import ProviderList from '../views/provider/ProviderList.vue'
+import CAPayment from '../views/ca_payment/CAPayment.vue'
 const routes = [
     { path: "/", redirect: '/home' },
     {
@@ -10,8 +12,20 @@ const routes = [
         component: Home
     },
     {
-        path: "/CAProcess",
+        path: "/Cash/Employees",
         component: Employee
+    },
+    {
+        path:"/Cash",
+        component: CashPage
+    },
+    {
+        path: "/Cash/Provider",
+        component: ProviderList
+    },
+    {
+        path:"/Cash/CAPayment",
+        component: CAPayment
     }
 ]
 

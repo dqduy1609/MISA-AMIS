@@ -1,13 +1,14 @@
 <template>
-  <button :style="{background : color}" @click="handleClick">
+  <button :style="[{background : backgroundcolor}, {color: '#ffffff'}]" @click="handleClick">
       <slot/>
   </button>
 </template>
-
+ 
 <script>
 export default {
     props:{
-        color: String,
+        backgroundcolor: String,
+        color: String
     },
     methods: {
         handleClick(){

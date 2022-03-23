@@ -56,7 +56,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// hàm lấy tất cả bản ghi của đối tượng
         /// </summary>
         /// <returns>Tất cả bản ghi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual List<TEntity> GetAll()
         {
             var employees = _sqlConnection.Query<TEntity>($"SELECT * FROM {_tableName} ORDER BY { _tableName}Code DESC");
@@ -67,7 +67,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="entityId">ID đối tượng</param>
         /// <returns>Đối tượng có ID tương ứng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual TEntity GetById(Guid entityId)
         {
             var sqlCommand = $"SELECT * FROM {_tableName} WHERE {_tableName}Id = @{_tableName}Id";
@@ -82,7 +82,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// Hàm lấy mã nhân viên mới
         /// </summary>
         /// <returns>mã nhân viên mới </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual string GetEntityCode()
         {
             var employeeCode = _sqlConnection.Query<string>($"SELECT CONCAT('NV', CONVERT(MAX(CONVERT(SUBSTRING({_tableName}Code,3,LENGTH({_tableName}Code)), int))+1, CHAR)) FROM {_tableName};");
@@ -94,7 +94,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="EmployeeCode"></param>
         /// <returns>Trả về bản ghi đầu tiên được tìm thấy </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual TEntity GetByEntityCode(string EntityCode)
         {
             var sqlCommand = $"SELECT * FROM {_tableName} WHERE {_tableName}Code = @{_tableName}Code";
@@ -111,7 +111,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="entity">Thông tin đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual int Insert(TEntity entity)
         {
             // Khai báo chuỗi SQL động:
@@ -140,8 +140,10 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
                     // Lấy ra kiểu dữ liệu của property:
                     var propType = prop.PropertyType;
 
+                    // nếu như thuộc tính có dạng .....Id ( id khoá chính ), thì sẽ tự động sinh
                     if (propName == $"{_tableName}Id" && propType == typeof(Guid))
                     {
+                        // kiểu dữ liệu là Guid -> tự động sinh
                         propValue = Guid.NewGuid();
                     }
 
@@ -168,7 +170,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// <param name="entity">thông tin sau khi thay đổi của đối tương</param>
         /// <param name="entityId">Id của đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public virtual int Update(TEntity entity, Guid entityId)
         {
             // Khai báo chuỗi SQL động:
@@ -216,7 +218,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public int Delete(Guid entityId)
         {
             var sqlCommand = $"DELETE FROM {_tableName} WHERE {_tableName}Id = @{_tableName}Id";
@@ -232,7 +234,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// <param name="entity">Đối tượng</param>
         /// <param name="property">Thông tin thuộc tính</param>
         /// <returns>Trả về 1 bản ghi đầu tiên được tìm thấy</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public object GetEntityByProperty(TEntity entity, System.Reflection.PropertyInfo property)
         {
             var propertyName = property.Name;
@@ -264,7 +266,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// <summary>
         /// Hàm ngắt kết nối
         /// </summary>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public void Dispose()
         {
             if (_sqlConnection.State == ConnectionState.Open)

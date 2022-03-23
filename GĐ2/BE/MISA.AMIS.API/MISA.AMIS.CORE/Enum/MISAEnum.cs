@@ -9,7 +9,7 @@ namespace MISA.AMIS.CORE.Entity
     /// <summary>
     /// Misa code để xác định trạng thái của việc validate
     /// </summary>
-    /// @Author nmquang 19-12-2021
+    /// @Author DQDUY 19-12-2021
     public enum MISAEnum
     {
         /// <summary>

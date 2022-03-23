@@ -23,7 +23,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="param">Thông tin đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override int Insert(AccountObject param)
         {
 
@@ -79,7 +79,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// <param name="param">thông tin sau khi thay đổi của đối tương</param>
         /// <param name="AccountObjectId">Id của đối tượng</param>
         /// <returns>Số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override int Update(AccountObject param, Guid AccountObjectId)
         {
             var _tableName = "AccountObject";
@@ -124,7 +124,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// hàm lấy tất cả bản ghi của đối tượng
         /// </summary>
         /// <returns>Tất cả bản ghi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override List<AccountObject> GetAll()
         {
             var tableName = "AccountObject";
@@ -137,7 +137,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="entityId">ID đối tượng</param>
         /// <returns>Đối tượng có ID tương ứng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override AccountObject GetById(Guid entityId)
         {
             var tableName = "AccountObject";
@@ -154,7 +154,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// Hàm lấy mã nhân viên mới
         /// </summary>
         /// <returns>mã nhân viên mới </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override string GetEntityCode()
         {
             var accountObjectCode = _sqlConnection.Query<string>($"SELECT CONCAT('NCC', CONVERT(MAX(CONVERT(SUBSTRING(ao.AccountObjectCode,4,LENGTH(ao.AccountObjectCode)), int))+1, CHAR)) FROM AccountObject ao;");
@@ -165,7 +165,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// </summary>
         /// <param name="EntityCode"></param>
         /// <returns>Trả về bản ghi đầu tiên được tìm thấy </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public override AccountObject GetByEntityCode(string AccountObjectCode)
         {
 
@@ -187,7 +187,7 @@ namespace MISA.AMIS.INTRASTRUCTURE.Repository
         /// <param name="pageSize">Số lượng record trên 1 trang</param>
         /// <param name="m_PageIndex">Trang hiện tại</param>
         /// <returns>Danh sách bản ghi được tìm thấy</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public PagingDataAccountObject GetAccountObjectPaging(string searchText, int pageSize, int pageIndex)
         {
             //Tính lại pageIndex

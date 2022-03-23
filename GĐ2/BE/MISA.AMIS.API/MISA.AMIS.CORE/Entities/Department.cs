@@ -9,7 +9,7 @@ namespace MISA.AMIS.CORE.Entities
     /// <summary>
     /// Class chứa thông tin Phòng ban
     /// </summary>
-    /// @Author nmquang 19-12-2021
+    /// @Author DQDUY 19-12-2021
     /// 
     public class Department:BaseEntity
     {   

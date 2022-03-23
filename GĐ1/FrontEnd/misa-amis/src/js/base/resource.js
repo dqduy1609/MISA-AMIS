@@ -20,7 +20,7 @@ const Resource = {
         
     },
     // đường dẫn api
-    AMIS_SERVICE_URL: "https://localhost:44320/api/v1"
+    AMIS_SERVICE_URL: "http://localhost:51831/api/v1"
   
 }
 

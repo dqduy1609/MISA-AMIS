@@ -12,8 +12,24 @@
           Có
         </div>
       </div>
-      <div v-else-if="type == 'error'" class="m-message-box__main--footer" style="justify-content:center">
-        <div class="m-message-box-btn btn-primary" @click="handleCancle">Đóng</div>
+      <div
+        v-else-if="type == 'error'"
+        class="m-message-box__main--footer"
+        style="justify-content: center"
+      >
+        <div class="m-message-box-btn btn-primary" @click="handleCancle">
+          Đóng
+        </div>
+      </div>
+
+      <div v-else-if="type == 'question'" class="m-message-box__main--footer">
+        <div class="m-message-box-btn" @click="handleCancle">Huỷ</div>
+        <div class="m-box-question">
+          <div class="m-message-box-btn" style="margin-right:10px" @click="handleClose">Không</div>
+          <div class="m-message-box-btn btn-primary" @click="handleConfirm">
+            Có
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -27,24 +43,40 @@ export default {
     type: String,
   },
   methods: {
+    /**
+     * Thay đổi icon của box
+     * CreatedBy: DQDUY (1/3/2022)
+     */
     Icon() {
       if (this.type === "warning") {
         return "warning";
       } else if (this.type === "error") {
         return "error";
+      } else if (this.type === "question") {
+        return "question";
       }
     },
+    /**
+     * Xác nhận đồng ý -> gọi ra component cha
+     * CreatedBy: DQDUY(28/2/2022)
+     */
     handleConfirm() {
       this.$emit("handleConfirmMessage");
     },
     handleCancle() {
       this.$emit("handleCanclemMessage");
     },
+    handleClose(){
+      this.$emit("handleCloseMessage")
+    }
   },
 };
 </script>
 
 <style scoped>
+.m-box-question{
+  display: flex;
+}
 .m-message-box-btn {
   padding: 6px 16px;
   border: 1px solid #8d9096;
@@ -110,6 +142,10 @@ export default {
 .error {
   background: url("../../assets/img/Sprites.svg") no-repeat;
   background-position: -24px -954px;
+}
+.question {
+  background: url("../../assets/img/Sprites.svg") no-repeat;
+  background-position: -826px -456px;
 }
 @keyframes fadein {
   from {

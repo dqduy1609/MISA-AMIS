@@ -35,14 +35,14 @@ export default {
   methods: {
     /**
      * Hàm bắn ra emit cho Component cha
-     * Author: DHToan (2021/11/18)
+     * Author: DQDUY (2021/11/18)
      */
     handleClosePopup() {
       this.$emit("handleClosePopup");
     },
     /**
      *  Hàm khi ấn nút Help
-     *  Author: DHToan(2021/11/18)
+     *  Author: DQDUY(2021/11/18)
      */
     handleHelpPopup() {
       this.$emit("handleHelpPopup");

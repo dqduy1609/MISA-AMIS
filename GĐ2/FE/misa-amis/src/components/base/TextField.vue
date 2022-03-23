@@ -4,7 +4,29 @@
       <div class="m-text-tittle">{{ label }}</div>
       <div v-if="required" class="m-text-field-required">&nbsp;*</div>
     </div>
-    <input type="text" :value="value" @input="updateValue($event.target.value)" :class="{'m-input-error': checkInput}" :title="(checkInput) ? errorText: null" />
+    <input
+      v-if="inputType === 'input'"
+      type="text"
+      :value="value"
+      @input="updateValue($event.target.value)"
+      :class="{ 'm-input-error': checkInput }"
+      :title="checkInput ? errorText : null"
+      :placeholder="[[placeholder]]"
+      :style="{ height: height }"
+      :disabled="disable"
+    />
+    <textarea
+    v-if="inputType === 'textarea'"
+      class="base-text-area"
+      type="text"
+      :value="value"
+      @input="updateValue($event.target.value)"
+      :class="{ 'm-input-error': checkInput }"
+      :title="checkInput ? errorText : null"
+      :placeholder="[[placeholder]]"
+      :style="{ height: height }"
+      :disabled="disable"
+    />
   </div>
 </template>
 
@@ -15,23 +37,30 @@ export default {
     required: Boolean,
     value: String,
     checkInput: Boolean,
-    errorText: String
+    errorText: String,
+    placeholder: String,
+    height: String,
+    inputType: {
+      default: "input",
+      type: String,
+    },
+    disable: {
+      default: false,
+      type: Boolean,
+    },
   },
   model: {
-    prop: "value"
+    prop: "value",
   },
-  methods:{
-    updateValue(value){
-      this.$emit('input', value);
-    }
-  }
+  methods: {
+    updateValue(value) {
+      this.$emit("input", value);
+    },
+  },
 };
 </script>
 
 <style scope>
-:root {
-  --input-height: 32px;
-}
 .m-text-field {
   width: 100%;
 }
@@ -53,6 +82,26 @@ export default {
 .m-text-field input[type="text"]:focus {
   border: 1px solid #2ca01c;
 }
+
+
+.base-text-area {
+  resize: none;
+  outline: none;
+  font-size: 13px;
+  border-radius: 2px;
+  border: 1px solid #babec5;
+  padding: 9px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.base-text-area:hover:not(:focus) {
+  outline: 1px solid #e2e2e2;
+}
+.base-text-area:focus {
+  border: 1px solid #2ca01c;
+}
+
 .m-text-field__label {
   display: flex;
 }
@@ -67,8 +116,16 @@ export default {
   font-size: 13px;
   font-family: Notosans-Regular;
 }
-.m-input-error{
-  border: 1px solid red !important;;
+.m-input-error {
+  border: 1px solid red !important;
 }
 
+.m-text-field input::placeholder {
+  font-style: italic;
+  font-size: 13px;
+}
+.m-text-field textarea::placeholder {
+  font-style: italic;
+  font-size: 13px;
+}
 </style>

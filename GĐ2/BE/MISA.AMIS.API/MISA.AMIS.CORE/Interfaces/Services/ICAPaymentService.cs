@@ -32,7 +32,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// </summary>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>trả về số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult DeleteCaPayment(Guid entityId);
 
 
@@ -41,14 +41,14 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// </summary>
         /// <param name="listId">Danh sách id của tài sản</param>
         /// <returns>Trả về số bản ghi ảnh hưởng khi xóa và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult DeleteMultipleCaPaymentRecords(string listId);
 
         /// <summary>
         /// lấy dữ liệu đổ vào file excel
         /// </summary>
         /// <returns>dữ liệu nhân viên dạng IEnumerable(duyệt các phần tử) </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
         public IEnumerable<CaPaymentDto> DataExcel();
 

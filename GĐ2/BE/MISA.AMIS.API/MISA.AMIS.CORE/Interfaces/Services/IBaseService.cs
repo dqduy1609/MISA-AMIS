@@ -13,35 +13,35 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// hàm lấy toàn bộ bản ghi của đối tượng
         /// </summary>
         /// <returns>trả về toàn bộ bản ghi của đối tượng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetAll();
         /// <summary>
         /// lấy bản ghi của đối tượng theo ID
         /// </summary>
         /// <param name="entityId">ID đối tượng</param>
         /// <returns>trả về  đối tượng, nếu không thấy thì trả về null</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetById(Guid entityId);
         /// <summary>
         /// lấy bản ghi của đối tượng theo ID
         /// </summary>
         /// <param name="entityId">ID đối tượng</param>
         /// <returns>trả về  đối tượng, nếu không thấy thì trả về null</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetMasterDetailById(Guid entityId);
 
         /// <summary>
         /// Hàm lấy mã nhân viên mới
         /// </summary>
         /// <returns>mã nhân viên mới và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetMasterDetailByCode(string entityCode);
 
         /// <summary>
         /// Hàm lấy mã nhân viên mới
         /// </summary>
         /// <returns>mã nhân viên mới và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetEntityCode();
 
 
@@ -50,7 +50,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// </summary>
         /// <param name="EmployeeCode"></param>
         /// <returns>Trả về bản ghi đầu tiên được tìm thấy và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult GetByEntityCode(string EntityCode);
 
         /// <summary>
@@ -58,7 +58,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// </summary>
         /// <param name="entity">các thuộc tính của đối tượng </param>
         /// <returns>trả về số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         /// 
 
 
@@ -69,14 +69,14 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// <param name="entity">các thuộc tính của đối tượng</param>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult Update(TEntity entity, Guid entityId);
         /// <summary>
         /// xóa đối tượng
         /// </summary>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>trả về số bản ghi bị ảnh hưởng</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult Delete(Guid entityId);
  
 
@@ -85,7 +85,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// </summary>
         /// <param name="listId">Danh sách id của tài sản</param>
         /// <returns>Trả về số bản ghi ảnh hưởng khi xóa và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public ServiceResult DeleteMultipleRecords(string listId);
     }
 }

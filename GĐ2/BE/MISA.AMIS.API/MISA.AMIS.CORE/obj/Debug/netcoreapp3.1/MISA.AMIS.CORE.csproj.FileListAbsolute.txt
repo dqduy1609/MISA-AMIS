@@ -21,15 +21,3 @@ D:\MISA\Misa_GD2-main\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3
 D:\MISA\Misa_GD2-main\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.CoreCompileInputs.cache
 D:\MISA\Misa_GD2-main\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.dll
 D:\MISA\Misa_GD2-main\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.pdb
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.deps.json
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.dll
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.pdb
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.AssemblyReference.cache
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.MyResource.Resource.resources
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.GenerateResource.cache
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.GeneratedMSBuildEditorConfig.editorconfig
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.AssemblyInfoInputs.cache
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.AssemblyInfo.cs
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.CoreCompileInputs.cache
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.dll
-D:\MISA\AMIS\MISA-AMIS\GĐ2\BE\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.pdb

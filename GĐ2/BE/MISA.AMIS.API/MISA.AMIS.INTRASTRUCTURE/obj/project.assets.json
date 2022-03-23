@@ -1156,11 +1156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
+      "projectUniqueName": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
       "projectName": "MISA.AMIS.INTRASTRUCTURE",
-      "projectPath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
+      "projectPath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\obj\\",
+      "outputPath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1177,8 +1177,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj": {
-              "projectPath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj"
+            "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj": {
+              "projectPath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj"
             }
           }
         }

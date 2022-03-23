@@ -18,7 +18,7 @@
       <router-link
         tag="div"
         class="m-menu-item"
-        to="/CAProcess"
+        to="/Cash"
         active-class="selected"
       >
         <div class="m-menu-item__icon cash"></div>

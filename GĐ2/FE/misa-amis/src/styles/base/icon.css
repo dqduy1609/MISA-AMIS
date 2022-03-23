@@ -116,3 +116,36 @@
     background: url("../../assets/img/Sprites.svg") no-repeat;
     background-position: -896px -359px;
 }
+.excel{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -704px -200px;
+}
+.excel:hover{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -704px -256px;
+}
+.mi-close{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -80px -312px;
+}
+.plus-success {
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -32px -312px;
+}
+.mi-delete{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -461px -312px;
+
+}
+.dropdown-black{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -557px -359px;
+}
+.dropdown-while{
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -848px -359px;
+}
+.setting_list {
+    background: url("../../assets/img/Sprites.svg") no-repeat;
+    background-position: -88px -200px;
+}

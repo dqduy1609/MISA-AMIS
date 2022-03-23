@@ -72,7 +72,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="entityId">id của đối tượng cần xóa</param>
         /// <returns>Số bản ghi bị ảnh hưởng. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpDelete("MaserDetail/{entityId}")]
         public IActionResult DeleteCaPayment(Guid entityId)
         {
@@ -101,7 +101,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="listId">danh sách id nhân viên cần xóa</param>
         /// <returns>trả về 0 nếu xóa thành công</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpDelete("MaserDetail/DeleteMulti/{listId}")]
         public IActionResult DeleteMultipleCaPaymentRecord(string listId)
         {
@@ -139,7 +139,7 @@ namespace MISA.AMIS.API.Api
         /// Phương thức Get. Lấy dữ liệu export ra file excel
         /// </summary>
         /// <returns>fiel excel</returns>
-        ///  @Author nmquang 19-12-2021
+        ///  @Author DQDUY 19-12-2021
         [HttpGet("ExportExcel")]
         public IActionResult Export()
         {

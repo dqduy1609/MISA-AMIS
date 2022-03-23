@@ -9,7 +9,7 @@ namespace MISA.AMIS.CORE.Entities
     /// <summary>
     /// Class chứa thông tin Employee
     /// </summary>
-    /// @Author nmquang 19-12-2021
+    /// @Author DQDUY 19-12-2021
 
     public class Employee : BaseEntity
     {   

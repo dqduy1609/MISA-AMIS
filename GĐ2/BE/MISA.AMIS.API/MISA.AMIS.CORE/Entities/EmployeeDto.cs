@@ -7,7 +7,7 @@ namespace MISA.AMIS.CORE.Entities
     /// <summary>
     /// Class chứa thông tin chi tiết nhân viên
     /// </summary>
-    /// @Author nmquang 19-12-2021
+    /// @Author DQDUY 19-12-2021
     public class EmployeeDto : BaseEntity
     {
         /// <summary>

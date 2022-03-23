@@ -13,7 +13,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// lấy dữ liệu đổ vào file excel
         /// </summary>
         /// <returns>dữ liệu nhân viên dạng IEnumerable(duyệt các phần tử) </returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
         public IEnumerable<AccountObject> DataExcel();
 
@@ -25,7 +25,7 @@ namespace MISA.AMIS.CORE.Interfaces.Services
         /// <param name="pageSize">Số lượng record trên 1 trang</param>
         /// <param name="m_PageIndex">Trang hiện tại</param>
         /// <returns>Danh sách nhân viên được tìm thấy và thông tin trạng thái request</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
         public PagingDataAccountObject GetAccountObjectPaging(string searchText, int pageSize, int m_PageIndex);
         public PagingDataAccountObject GetAccountObjectPaging2(FilterAccountObject filter);

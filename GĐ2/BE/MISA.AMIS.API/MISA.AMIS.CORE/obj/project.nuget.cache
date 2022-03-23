@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WRtZ1/Jx8iGp6zYAlEIuRNyGowIz5UcJjyyt1FzIBwMkSH8z35X6ChdkNbt1b5xwHM6Uux0XTR/MXW7v6mEOsA==",
+  "dgSpecHash": "XzAvz2U+hVfoyn8+ppIBRv1xUlw1IdTWrhLFsziy8j8nqN8jnQIVhKXKoLMRPY6OZJHKd63iOl2LRnPaL6L2KA==",
   "success": true,
-  "projectFilePath": "D:\\MISA\\AMIS\\MISA-AMIS\\GĐ2\\BE\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
+  "projectFilePath": "D:\\MISA\\Misa_GD2-main\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

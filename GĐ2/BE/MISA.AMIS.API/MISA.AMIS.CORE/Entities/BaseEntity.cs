@@ -12,7 +12,7 @@ namespace MISA.AMIS.CORE.Entities
     /// <summary>
     /// Class attribute đánh dấu thông tin bắt buộc nhập
     /// </summary>
-    /// @Author nmquang 19-12-2021
+    /// @Author DQDUY 19-12-2021
     /// 
     [AttributeUsage(AttributeTargets.Property)]
     public class Required : Attribute

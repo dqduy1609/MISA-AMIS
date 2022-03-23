@@ -28,7 +28,7 @@ namespace MISA.AMIS.API.Api
         /// Phương thức Get, lấy tất cả dữ liệu của đối tượng
         /// </summary>
         /// <returns>Dữ liệu của đối tượng. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpGet]
         public virtual IActionResult Get()
         {
@@ -49,14 +49,14 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="entityId">id của đối tượng</param>
         /// <returns>Dữ liệu của đối tượng được tìm kiếm. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
 
         /// <summary>
         /// Phương thức Get. Lấy thông tin của đối tượng trong cơ sở dữ liệu
         /// </summary>
         /// <returns>Thông tin của đối tượng. Nếu gặp lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
         [HttpGet("{entityId}")]
         public IActionResult Get(Guid entityId)
@@ -147,7 +147,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="entity">Thông tin của đối tượng cần thêm</param>
         /// <returns>Số bản ghi bị ảnh hưởng. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpPost]
         public IActionResult Post(TEntity entity)
         {
@@ -196,7 +196,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="entityId">id của đối tượng cần xóa</param>
         /// <returns>Số bản ghi bị ảnh hưởng. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpDelete("{entityId}")]
         public IActionResult Delete(Guid entityId)
         {
@@ -225,7 +225,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="listId">danh sách id nhân viên cần xóa</param>
         /// <returns>trả về 0 nếu xóa thành công</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         [HttpDelete("DeleteMulti/{listId}")]
         public IActionResult DeleteMultipleRecord(string listId)
         {
@@ -248,7 +248,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="entityId">id của đối tượng cần sửa</param>
         /// <returns>Số bản ghi bị ảnh hưởng. Nếu lỗi trả về thông tin lỗi</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         /// 
 
         [HttpPut("{entityId}")]
@@ -277,7 +277,7 @@ namespace MISA.AMIS.API.Api
         /// </summary>
         /// <param name="ex">Exception</param>
         /// <returns>Các thông tin, và cách giải quyết cho Người dùng và Dev</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         /// 
 
 

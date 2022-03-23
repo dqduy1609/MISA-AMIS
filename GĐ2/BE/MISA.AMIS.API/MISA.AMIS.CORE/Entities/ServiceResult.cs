@@ -15,7 +15,7 @@ namespace MISA.AMIS.CORE.Entities
         /// <summary>
         /// dữ liệu trả về trả về cho client sử dụng
         /// </summary>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
         public object Data { get; set; }
 
         /// <summary>

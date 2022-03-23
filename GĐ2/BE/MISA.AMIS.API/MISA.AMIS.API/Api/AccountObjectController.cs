@@ -44,7 +44,7 @@ namespace MISA.AMIS.API.Api
         /// Phương thức Get. Lấy dữ liệu export ra file excel
         /// </summary>
         /// <returns>fiel excel</returns>
-        ///  @Author nmquang 19-12-2021
+        ///  @Author DQDUY 19-12-2021
         [HttpGet("ExportExcel")]
         public IActionResult Export()
         {

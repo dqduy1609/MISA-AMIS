@@ -16,7 +16,7 @@ namespace MISA.AMIS.CORE.Interfaces.Repository
         /// <param name="pageSize">Số lượng record trên 1 trang</param>
         /// <param name="m_PageIndex">Trang hiện tại</param>
         /// <returns>Danh sách bản ghi được tìm thấy</returns>
-        /// @Author nmquang 19-12-2021
+        /// @Author DQDUY 19-12-2021
 
         PagingDataAccountObject GetAccountObjectPaging(string searchText, int pageSize, int m_PageIndex);
         /// <summary>

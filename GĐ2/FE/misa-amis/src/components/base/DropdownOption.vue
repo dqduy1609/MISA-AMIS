@@ -26,7 +26,7 @@ export default {
   methods:{
       /**
        * Hàm bắn ra sự kiện khi ấn nút xóa
-       * Author: DHTOAN(19/11/2021)
+       * Author: DQDUY(19/11/2021)
        */
       Delete(){
           this.$emit('delete');

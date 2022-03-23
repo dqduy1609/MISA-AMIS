@@ -13,7 +13,7 @@
       <div class="m-header__notify bell"></div>
       <div class="user">
         <div class="avatar"></div>
-        <div class="username">Đỗ Hữu Toàn</div>
+        <div class="username">Đào Quang Duy</div>
         <div class="user-option arrow"></div>
       </div>
     </div>
